@@ -27,5 +27,6 @@ public class StepDefinition1 extends BaseClass {
     @Then("Back to home page")
     public void back_to_home_page() {
     pageFactory.getBackh().BackMethod();
+    close();
     }
 }
